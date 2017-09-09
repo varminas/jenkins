@@ -1,1 +1,7 @@
-config
+config/logs
+config/secrets
+config/secret.key
+config/secret.key.not-so-secret
+config/identity.key.enc
+config/logs
+*.log
