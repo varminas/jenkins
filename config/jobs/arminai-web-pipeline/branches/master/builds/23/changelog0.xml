@@ -1,0 +1,12 @@
+commit db596db17597ff47bb0e252ffd18c0abcb566e03
+tree e6a8e09de73693aceff4e853f0ebb25d48d9e1c2
+parent 08411b188249259050a0d39ca79b182b3bd5443e
+author vytautas.arminas <vytautas.arminas@gmai.com> 2019-03-08 15:05:17 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2019-03-08 15:05:17 +0100
+
+    Updated dependencies
+
+
+
+:100644 100644 05b2ddddf01f9bc623bc8234d3f62693a892cbdc 3b19fd4c1fab052acdacd0c2adeecca2b12a2688 M	package-lock.json
+:100644 100644 dbda7facce641db74a920376597989b19a0a9817 ca19e537f6923930f2c31bb44078421002e24e1c M	package.json

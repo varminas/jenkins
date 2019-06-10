@@ -1,0 +1,22 @@
+commit 626c10866430c98c93327157325ca805bb53f400
+tree 5782ad4fd66877a595dc82d1854231cdc7ac3850
+parent 29238e8b3532326990fb4a6e6f21a29ab79530fa
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-13 22:51:58 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-13 22:51:58 +0100
+
+    add steps
+
+
+
+:100644 100644 b490698b5a55d51b3359d8bbd45e849be1b84c26 9b2ffaa57560d45eb1d1d8618d7f71189bc859d9 M	Jenkinsfile
+commit 29238e8b3532326990fb4a6e6f21a29ab79530fa
+tree e8aa410ecda69413fe35fb666db718ead629c0d7
+parent 6834867a54dc11355767371b06d3ae55a0c9df77
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-13 22:49:30 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-13 22:49:30 +0100
+
+    publish to ftp stage
+
+
+
+:100644 100644 62604768e7e9b24205979e83856fef3684e5dacb b490698b5a55d51b3359d8bbd45e849be1b84c26 M	Jenkinsfile

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-11-11 21:43:42.446 UTC</timestamp>
+  <md5sum>608be6b4ab8ac95aeeecdfa3f1bcfe81</md5sum>
+  <fileName>Credential id=601d0f28-c508-4462-9c2a-8e73bb8bba42 name=varminas/****** (Bitbucket account)</fileName>
+  <usages>
+    <entry>
+      <string>arminai-web-pipeline/master</string>
+      <ranges>1,4-5,7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

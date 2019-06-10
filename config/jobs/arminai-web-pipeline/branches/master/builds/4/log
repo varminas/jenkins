@@ -1,0 +1,245 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://varminas@bitbucket.org/varminas/arminai.git
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen branch in repository origin/translation
+Seen branch in repository origin/upgrade-to-angular-7
+Seen 3 remote branches
+Obtained Jenkinsfile from 434dde6b084ca7a34ea660ef177481bc1570a2c3
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://varminas@bitbucket.org/varminas/arminai.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --no-tags --progress https://varminas@bitbucket.org/varminas/arminai.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 434dde6b084ca7a34ea660ef177481bc1570a2c3 (master)
+Commit message: "Updated nodejs name"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 434dde6b084ca7a34ea660ef177481bc1570a2c3
+ > git rev-list 380512047d83c8f4280b9d05ebd6a0462cb77df3 # timeout=10
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (NPM Setup)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ] Running shell script
++ npm install
+
+> node-sass@4.9.3 install /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.3/linux-x64-67_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v4.9.3/linux-x64-67_binding.node": 
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g. 
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> node-sass@4.9.3 postinstall /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass
+> node scripts/build.js
+
+Building: /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs_11.1.0/bin/node /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [ '/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs_11.1.0/bin/node',
+gyp verb cli   '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/bin/node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library=' ]
+gyp info using node-gyp@3.8.0
+gyp info using node@11.1.0 | linux | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` succeeded python2 /usr/bin/python2
+gyp verb check python version `/usr/bin/python2 -c "import sys; print "2.7.13
+gyp verb check python version .%s.%s" % sys.version_info[:3];"` returned: %j
+gyp verb get node dir no --target version specified, falling back to host node version: 11.1.0
+gyp verb command install [ '11.1.0' ]
+gyp verb install input version string "11.1.0"
+gyp verb install installing version: 11.1.0
+gyp verb install --ensure was passed, so won't reinstall if already installed
+gyp verb install version is already installed, need to check "installVersion"
+gyp verb got "installVersion" 9
+gyp verb needs "installVersion" 9
+gyp verb install version is good
+gyp verb get node dir target node version installed: 11.1.0
+gyp verb build dir attempting to create "build" dir: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass/build
+gyp verb build dir "build" dir needed to be created? /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass/build
+gyp verb build/config.gypi creating config file
+gyp verb build/config.gypi writing out config file: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass/build/config.gypi
+gyp verb config.gypi checking for gypi file: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass/config.gypi
+gyp verb common.gypi checking for gypi file: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass/common.gypi
+gyp verb gyp gyp format was not specified; forcing "make"
+gyp info spawn /usr/bin/python2
+gyp info spawn args [ '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/gyp/gyp_main.py',
+gyp info spawn args   'binding.gyp',
+gyp info spawn args   '-f',
+gyp info spawn args   'make',
+gyp info spawn args   '-I',
+gyp info spawn args   '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass/build/config.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/addon.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/var/jenkins_home/.node-gyp/11.1.0/include/node/common.gypi',
+gyp info spawn args   '-Dlibrary=shared_library',
+gyp info spawn args   '-Dvisibility=default',
+gyp info spawn args   '-Dnode_root_dir=/var/jenkins_home/.node-gyp/11.1.0',
+gyp info spawn args   '-Dnode_gyp_dir=/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp',
+gyp info spawn args   '-Dnode_lib_file=/var/jenkins_home/.node-gyp/11.1.0/<(target_arch)/node.lib',
+gyp info spawn args   '-Dmodule_root_dir=/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass',
+gyp info spawn args   '-Dnode_engine=v8',
+gyp info spawn args   '--depth=.',
+gyp info spawn args   '--no-parallel',
+gyp info spawn args   '--generator-output',
+gyp info spawn args   'build',
+gyp info spawn args   '-Goutput_dir=.' ]
+gyp verb command build []
+gyp verb build type Release
+gyp verb architecture x64
+gyp verb node dev dir /var/jenkins_home/.node-gyp/11.1.0
+gyp ERR! build error 
+gyp ERR! stack Error: not found: make
+gyp ERR! stack     at getNotFoundError (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:13:12)
+gyp ERR! stack     at F (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:68:19)
+gyp ERR! stack     at E (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:80:29)
+gyp ERR! stack     at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:89:16
+gyp ERR! stack     at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/isexe/index.js:42:5
+gyp ERR! stack     at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/isexe/mode.js:8:5
+gyp ERR! stack     at FSReqCallback.oncomplete (fs.js:161:21)
+gyp ERR! System Linux 4.9.93-linuxkit-aufs
+gyp ERR! command "/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs_11.1.0/bin/node" "/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-sass
+gyp ERR! node -v v11.1.0
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok 
+Build failed with error code: 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.9.3 (node_modules/node-sass):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.9.3 postinstall: `node scripts/build.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
+added 1068 packages from 1177 contributors and audited 39155 packages in 140.804s
+found 0 vulnerabilities
+
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Stage Web Build)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ] Running shell script
++ npm run build --prod
+
+> arminai@0.0.0 build /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ
+> ng build --prod
+
+
+Date: 2018-11-12T21:01:00.335Z
+Hash: 66e1cc9020f4a7fc72d3
+Time: 17174ms
+chunk {0} runtime.ec2944dd8b20ec099bf3.js (runtime) 1.41 kB [entry] [rendered]
+chunk {1} main.9868d9b237c3a48c54da.js (main) 128 bytes [initial] [rendered]
+chunk {2} polyfills.85f47f0bf59079cbc23a.js (polyfills) 130 bytes [initial] [rendered]
+chunk {3}  (styles) [initial] [rendered]
+
+ERROR in ./src/scss/styles.scss
+Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+ModuleBuildError: Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Cannot find module 'node-sass'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.sassLoader (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/sass-loader/lib/loader.js:46:72)
+    at runLoaders (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/webpack/lib/NormalModule.js:286:20)
+    at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:364:11
+    at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:230:18
+    at runSyncOrAsync (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:143:3)
+    at iterateNormalLoaders (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:229:2)
+    at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:202:4
+    at VirtualFileSystemDecorator.readFile (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:38:13)
+    at processResource (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:199:11)
+    at iteratePitchingLoaders (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/LoaderRunner.js:173:18
+    at loadLoader (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/loader-runner/lib/loadLoader.js:36:3)
+ERROR in Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Cannot find module 'node-sass'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:587:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:513:25)
+    at Module.require (internal/modules/cjs/loader.js:643:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.sassLoader (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/sass-loader/lib/loader.js:46:72)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! arminai@0.0.0 build: `ng build --prod`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the arminai@0.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/jenkins_home/.npm/_logs/2018-11-12T21_01_00_431Z-debug.log
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+[8mha:////4ISAlwdnaLKP0wV4Rtuxx/1oJE0RcIf5MD6/aaT4ttgFAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

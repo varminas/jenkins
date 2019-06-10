@@ -1,0 +1,21 @@
+commit d185c316732b4a3e0d7fa3267cf9e2fef2eb48a8
+tree 04092c3664c98e50e08796b38c3a3839e576a714
+parent 5f878c599df27054bf8bd5cf406ed9d36ac39895
+author vytautas.arminas <vytautas.arminas@gmai.com> 2019-06-09 14:26:32 +0200
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2019-06-09 14:26:32 +0200
+
+    Updated about Vytautas
+
+
+
+:100644 100644 3b1859240357600999f918ad0fc77e502871f32f a3fb22bcbb9ba9466e0b252586483d1d85262a12 M	src/app/app.module.ts
+:000000 100644 0000000000000000000000000000000000000000 f355742ea604044715711acc094180cfa6ff1497 A	src/app/components/vytautas/vytautas/technology/technology-group.ts
+:000000 100644 0000000000000000000000000000000000000000 e3cd9e5b76930b827068b3a0e862bac827d2c5bb A	src/app/components/vytautas/vytautas/technology/technology.component.html
+:000000 100644 0000000000000000000000000000000000000000 f9b0b002687f8f1dc3b8fb23f99531bbb2752eec A	src/app/components/vytautas/vytautas/technology/technology.component.scss
+:000000 100644 0000000000000000000000000000000000000000 c68fd2017d4480e9d90a72e9352b512b0cd97e98 A	src/app/components/vytautas/vytautas/technology/technology.component.spec.ts
+:000000 100644 0000000000000000000000000000000000000000 911598df77b06b2a8f4cf37ad0ca5d58be1816a0 A	src/app/components/vytautas/vytautas/technology/technology.component.ts
+:000000 100644 0000000000000000000000000000000000000000 fa628e95cc857dc1ac8aad4154845281d2bf4ab3 A	src/app/components/vytautas/vytautas/technology/technology.ts
+:100644 100644 88bc9c421273639f37b9fe3ac79155d291b7ea02 c43489596c30373ca89c53e44a5cb95c7d63de4e M	src/app/components/vytautas/vytautas/vytautas.component.html
+:100644 100644 06017903facbe69ab5f2140fbbf796375b0609ec 5187a0b87eeb0dd56b0f04eeacc93057fdd703c0 M	src/app/components/vytautas/vytautas/vytautas.component.ts
+:100644 100644 42c73fbc9782a7133bbff9bed11ad33c0744b6a5 f99a6bda22c2b3dd4d6b0ffcf65072e27f9c8496 M	src/assets/i18n/en.json
+:100644 100644 f36133d5c8a64377f5e7bf38da845ad639c1d53a 9d423befbd9dfbc7f846f7cc1f69082aab41e5c5 M	src/assets/i18n/lt.json

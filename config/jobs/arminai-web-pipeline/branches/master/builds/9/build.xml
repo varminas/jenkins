@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.29">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.3.0">
+      <sourceId>35c1a67d-ba30-4bf8-9783-8621f37ee58c</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.5.1">
+        <head plugin="scm-api@2.3.0">
+          <name>master</name>
+        </head>
+        <hash>626c10866430c98c93327157325ca805bb53f400</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.12">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>24</queueId>
+  <timestamp>1542146827292</timestamp>
+  <startTime>1542146827308</startTime>
+  <result>FAILURE</result>
+  <duration>9069</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

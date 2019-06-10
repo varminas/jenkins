@@ -1,0 +1,15 @@
+commit 08411b188249259050a0d39ca79b182b3bd5443e
+tree 860d8d73975151449895d99de50b87bc486f309b
+parent 20c4cfb3f952e2bf75f214cfe47e118ea29f8909
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-12-02 15:13:42 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-12-02 15:13:42 +0100
+
+    Added two stairs images
+
+
+
+:100644 100644 a4c4d077487edb5558fd97a937d8381dafff7479 1fffba69f8592e38b1f84eb73dd36b44be764ff6 M	src/app/config/galery.config.ts
+:100644 100644 e0b586fdb8aa3a98c5d28fa88b5619ea4e8f05db a16932b34f05dbb8cda83511fa47089186640369 M	src/assets/images/juozo/laiptai/laiptai-13.jpg
+:100644 100644 5c1cc8fae2fb6bc825b9583d5bcc71e2e6743324 1f8e75b487a150ae4f9ca2f53bb0cfc273320764 M	src/assets/images/juozo/laiptai/laiptai-14.jpg
+:000000 100644 0000000000000000000000000000000000000000 e0b586fdb8aa3a98c5d28fa88b5619ea4e8f05db A	src/assets/images/juozo/laiptai/laiptai-28a.jpg
+:000000 100644 0000000000000000000000000000000000000000 5c1cc8fae2fb6bc825b9583d5bcc71e2e6743324 A	src/assets/images/juozo/laiptai/laiptai-29a.jpg

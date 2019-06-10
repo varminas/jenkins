@@ -1,0 +1,211 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.29">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.21"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.3.0">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.5.1">
+        <head plugin="scm-api@2.3.0">
+          <name>master</name>
+        </head>
+        <hash>380512047d83c8f4280b9d05ebd6a0462cb77df3</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.12">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.3.2">
+      <stagesList>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.3.2">
+          <stages>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>NPM Setup</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map"/>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>Stage Web Build</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map"/>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+          </stages>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
+      </stagesList>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.5.1">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.3">
+              <sha1>380512047d83c8f4280b9d05ebd6a0462cb77df3</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://varminas@bitbucket.org/varminas/arminai.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.5.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://varminas@bitbucket.org/varminas/arminai.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.60">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>7</queueId>
+  <timestamp>1541974167715</timestamp>
+  <startTime>1541974167726</startTime>
+  <result>FAILURE</result>
+  <duration>36853</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+
+    agent any
+
+    environment {
+        PATH=&apos;/usr/local/bin:/usr/bin:/bin&apos;
+	}
+
+    stages {
+
+       stage(&apos;NPM Setup&apos;) {
+          steps {
+             sh &apos;npm install&apos;
+         }
+       }
+
+      stage(&apos;Stage Web Build&apos;) {
+          steps {
+              sh &apos;npm run build --prod&apos;
+          }
+       }
+    }
+}</script>
+    <loadedScripts class="map">
+      <entry>
+        <string>Script1</string>
+        <string>&quot;PATH=/usr/local/bin:/usr/bin:/bin&quot;</string>
+      </entry>
+    </loadedScripts>
+    <persistedClean>true</persistedClean>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>755765200</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>8432807400</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>8696255600</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>1421716300</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>887726100</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>25</iota>
+    <head>1:25</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.5.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://varminas@bitbucket.org/varminas/arminai.git</url>
+            <credentialsId>601d0f28-c508-4462-9c2a-8e73bb8bba42</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ</workspace>
+      <changelogFile>/var/jenkins_home/jobs/arminai-web-pipeline/branches/master/builds/1/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

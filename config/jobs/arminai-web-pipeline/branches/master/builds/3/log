@@ -1,0 +1,38 @@
+Started by user [8mha:////4Mdet3wVxJqEv/iTSTj8oyETPJ1p7aNenBZM/d4M96kgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZu/dLi1CL9xJTczDwAg9OS0cAAAAA=[0mVytautas
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://varminas@bitbucket.org/varminas/arminai.git
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen branch in repository origin/translation
+Seen branch in repository origin/upgrade-to-angular-7
+Seen 3 remote branches
+Obtained Jenkinsfile from 1c6a877a78d39e23b8b6bf1c2e12935bc810b402
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 5: Tool type "nodejs" does not have an install of "node" configured - did you mean "nodejs 11.1.0"? @ line 5, column 19.
+       tools {nodejs "node"}
+                     ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1085)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:603)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:581)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:558)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:688)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:700)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:129)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:123)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:517)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:480)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:269)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:405)
+Finished: FAILURE

@@ -1,0 +1,22 @@
+commit 434dde6b084ca7a34ea660ef177481bc1570a2c3
+tree 7190febb0f3478a48d94073692dd8975f5a12cfb
+parent 1c6a877a78d39e23b8b6bf1c2e12935bc810b402
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-12 21:57:19 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-12 21:57:19 +0100
+
+    Updated nodejs name
+
+
+
+:100644 100644 e56d605d4de23ef012ac07664046babdfd1f1230 62604768e7e9b24205979e83856fef3684e5dacb M	Jenkinsfile
+commit 1c6a877a78d39e23b8b6bf1c2e12935bc810b402
+tree ef2ef2ff308025b93cf938e90fd61fefd50df135
+parent 380512047d83c8f4280b9d05ebd6a0462cb77df3
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-12 21:54:37 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-12 21:54:37 +0100
+
+    Add tool nodejs in jenkinsfile
+
+
+
+:100644 100644 eab756c13f551f6dd7abf6cba95e805835543697 e56d605d4de23ef012ac07664046babdfd1f1230 M	Jenkinsfile

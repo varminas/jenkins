@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.29">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.21"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.3.0">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.5.1">
+        <head plugin="scm-api@2.3.0">
+          <name>master</name>
+        </head>
+        <hash>1c6a877a78d39e23b8b6bf1c2e12935bc810b402</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.12">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>10</queueId>
+  <timestamp>1542056114563</timestamp>
+  <startTime>1542056114586</startTime>
+  <result>FAILURE</result>
+  <duration>4792</duration>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

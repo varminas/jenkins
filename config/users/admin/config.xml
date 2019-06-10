@@ -1,17 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.1' encoding='UTF-8'?>
 <user>
   <fullName>Vytautas</fullName>
+  <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwjn5E5sD/6th/CHSl3VpDbfoahwjGCQcbBUNVwTYDXMypXk9aPr+hkW9g3tuXJhBC5m9ZpNuSY9e94iProJeG5A==}</apiToken>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
     </jenkins.security.ApiTokenProperty>
-    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.15">
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.18">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
-    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.58">
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.22">
+      <emailAddress>telekomun@gmail.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.63">
       <triggers/>
     </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1504980371587</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
     <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
       <views>
         <hudson.model.AllView>
           <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
@@ -22,26 +35,20 @@
         </hudson.model.AllView>
       </views>
     </hudson.model.MyViewsProperty>
-    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.0">
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
       <providerId>default</providerId>
     </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$auufmchQrmjziD9OTwHOM.eGyaYpqmJP8jMb.EynwF3yWX1Im8F1u</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$c0I0xwBIwazAMquZtBp2Uu8c1zhc3dKWXLRgYGm73UrDZ4R2uglXG</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
-      <emailAddress>telekomun@gmail.com</emailAddress>
-    </hudson.tasks.Mailer_-UserProperty>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1504980371587</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
