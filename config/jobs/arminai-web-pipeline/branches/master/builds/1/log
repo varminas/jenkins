@@ -1,0 +1,64 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://varminas@bitbucket.org/varminas/arminai.git
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen branch in repository origin/translation
+Seen branch in repository origin/upgrade-to-angular-7
+Seen 3 remote branches
+Obtained Jenkinsfile from 380512047d83c8f4280b9d05ebd6a0462cb77df3
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://varminas@bitbucket.org/varminas/arminai.git
+ > git init /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ # timeout=10
+Fetching upstream changes from https://varminas@bitbucket.org/varminas/arminai.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --no-tags --progress https://varminas@bitbucket.org/varminas/arminai.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://varminas@bitbucket.org/varminas/arminai.git
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --no-tags --progress https://varminas@bitbucket.org/varminas/arminai.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 380512047d83c8f4280b9d05ebd6a0462cb77df3 (master)
+Commit message: "Added Jenkins"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 380512047d83c8f4280b9d05ebd6a0462cb77df3
+First time build. Skipping changelog.
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (NPM Setup)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ] Running shell script
++ npm install
+/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ@tmp/durable-ad92f236/script.sh: 2: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ@tmp/durable-ad92f236/script.sh: npm: not found
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Stage Web Build)
+Stage 'Stage Web Build' skipped due to earlier failure(s)
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CIdoDmNGXBwGOww5tQmzby+4CG8Zs20pl0DYlb2H/1zAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+[8mha:////4ISAlwdnaLKP0wV4Rtuxx/1oJE0RcIf5MD6/aaT4ttgFAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

@@ -1,0 +1,13 @@
+commit 80895b5ae265673854eac9b7998b1e62a18324e9
+tree 182d3df22ee9f62c72afb68d756e94c26293da17
+parent db596db17597ff47bb0e252ffd18c0abcb566e03
+author a1v <a1v@suva.ch> 2019-06-05 15:39:36 +0200
+committer a1v <a1v@suva.ch> 2019-06-05 15:39:36 +0200
+
+    Update to angular 8
+
+
+
+:100644 100644 3b19fd4c1fab052acdacd0c2adeecca2b12a2688 8a794a195efbc5363e0d46d0e594a89b0c94c0e8 M	package-lock.json
+:100644 100644 ca19e537f6923930f2c31bb44078421002e24e1c 188887c667eea11ff2588e64c0b276426757b7e6 M	package.json
+:100644 100644 ef19cb476a973f4410e0a9df6f436d86353be4b1 88350450dfdc8789bfbfe67800fb320b7ccef6e5 M	src/app/components/common/galery/galery.component.ts

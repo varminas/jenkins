@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-11-13 22:12:28.421 UTC</timestamp>
+  <md5sum>075c237bfcf112baae980e3de398aadb</md5sum>
+  <fileName>Credential id=601d0f28-c508-4462-9c2a-8e73bb8bba42 name=varminas/****** (Bitbucket account)</fileName>
+  <usages>
+    <entry>
+      <string>arminai-web-pipeline/master</string>
+      <ranges>10-27</ranges>
+    </entry>
+    <entry>
+      <string>arminai-web-pipeline/update-angular7</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

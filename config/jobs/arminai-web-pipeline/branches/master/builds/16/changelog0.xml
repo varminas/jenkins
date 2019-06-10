@@ -1,0 +1,22 @@
+commit 5b0b109f2e56aaa44bd6b521e429491f4d850069
+tree 9dd546479ae57da6cfa1dca701c57bdb5a136055
+parent 3e7a64e55f61fdf97f11557ef343079ff528ac18
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 20:53:34 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 20:53:34 +0100
+
+    source Files
+
+
+
+:100644 100644 c8e7ac26480a18291f5d18f289e9b170a4cf0972 0d1f87fa470df139cf2949f925622a967d707c2d M	Jenkinsfile
+commit 3e7a64e55f61fdf97f11557ef343079ff528ac18
+tree 91168d68dd3c1a0948c3a62f076b154dd7ef7e9d
+parent 44ec2b90a97c07633b78c1db5a85975d5b5047d6
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 20:50:48 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 20:50:48 +0100
+
+    Remove prefix
+
+
+
+:100644 100644 5e6a14ef0ba351d992176dee5f3181c264e7563e c8e7ac26480a18291f5d18f289e9b170a4cf0972 M	Jenkinsfile

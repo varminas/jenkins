@@ -1,7 +1,7 @@
-version: '2'
+version: '3.7'
 services:
   jenkins:
-    image: "jenkins/jenkins:lts"
+    image: "jenkins/jenkins:2.150.1-alpine"
     container_name: jenkins
     restart: "no"
     ports:

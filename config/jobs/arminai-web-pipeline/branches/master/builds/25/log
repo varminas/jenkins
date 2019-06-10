@@ -1,0 +1,600 @@
+Started by user [8mha:////4Mdet3wVxJqEv/iTSTj8oyETPJ1p7aNenBZM/d4M96kgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZu/dLi1CL9xJTczDwAg9OS0cAAAAA=[0mVytautas
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://varminas@bitbucket.org/varminas/arminai.git
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen branch in repository origin/translation
+Seen branch in repository origin/upgrade-to-angular-7
+Seen 3 remote branches
+Obtained Jenkinsfile from dc42079c613973cc8b3699dc61341c1219361e57
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4PZXnRlhBCE8Iu98b2QMX9op0Ti3uKU45ilwBRNIh9izAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4KKqvQsv8gn4IPj6XR4VjcWPnDDjxHTUdXAs+weM5kP3AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ
+[8mha:////4EMYZWiSxJZmeWbIxonPlew++yaIsY1NAWOVpVvXIPH3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KVP8vW/S2Etqe5W7zvO8OkM7cDu4uecYDv/5m+m29pDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4MQOjgyFOxMYmcas4roSR9gGBiX2IAPCsnadxXCArS4LAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CZB4RNlYVbpgs37A01YVzvJ02Bo9UiYMkDSNup1p4sFAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://varminas@bitbucket.org/varminas/arminai.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://varminas@bitbucket.org/varminas/arminai.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket account
+ > git fetch --no-tags --progress https://varminas@bitbucket.org/varminas/arminai.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision dc42079c613973cc8b3699dc61341c1219361e57 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dc42079c613973cc8b3699dc61341c1219361e57
+Commit message: "Merged in update-angular7 (pull request #3)"
+ > git rev-list --no-walk dc42079c613973cc8b3699dc61341c1219361e57 # timeout=10
+[8mha:////4Gnyfce6gabjXuX7ADF9OYmU8cu1iCDVyCTCeJuHw1d3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4A0Td9cFGd/o0Wiybe3vk/6hFPHV+Zxsx4q5wIhDg9ZJAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KyxD5M46Ejmet8ESs2RBWOn6SxOkKC34kkJ6xh/HLgJAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4M53mohgyeFc5tPLpcIBA3kgeRxFE18x4hBjoWrJvdzgAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4HbBnbESu45TFLggOgyvK3WReZzbqb9aq4dnkzbUXRcsAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4NIr0GFFG1SL0ImPgmGLlACFPxaU78wZZnSS8YbINgZLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4O2b0dYw+vGzNnrslSpjzdW9HvtfKuh7s15bDbh06Hq4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4C1poTwFUXxUJ5tkJECD7YEvAv6PSLSw2LozmmQIceI2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4MeTKyoLVJfSbjYv6uJH2+kbKudSQzqGN4IxMexLfyANAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] tool
+[8mha:////4HDlt6D36x/ZDFuKBEWrzeqqWGuQEIwO6qNBMQoD1abmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MyOM1zgYAgJklBzUJT+iqYMLOCa9i8n5WZhjzGoxkY3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1b0dOKvgAAAA==[0m[Pipeline] }
+[8mha:////4ARZ6zPA3vxUj/MJEi9vpipEyQSnjFDjFw85U3a+UdSDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFoMog2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Da+pSBNuM4POTejy9N7PKZ9ZllbOfu4x+jv7JWX8hkxAAAApx+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoiUnxF1Yo26cILQhJA0eq8kKenEibgadyBQiQkPlm3J+p4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNzgO5r/CAAAA[0m[Pipeline] withEnv
+[8mha:////4HVx6pHOeud//LW9zOsZAp1hOyOIvWxVMRNykfd0ysGzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4DT8zq+dUMNn1wO9iViZwxlvjAmqMlZSy+6snUJA/FnxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] stage
+[8mha:////4M7tX0fWJnYOh0cjQVKb0CUoU7TQqP2xfGZN20P2tlxiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (NPM Setup)
+[8mha:////4EVAHi/xxgpbTMuBnEXA7j5m9sIIiFjYcIci2j6SqazuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] tool
+[8mha:////4BMv1ICHhibJYwU2S9u9osq/RaA+2fKLbei0Y2uXHYumAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4LhZgmtET3Tbq2IbOigGArxOgXoOLan+VzWaP1CCJsVGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADVPyEewgAAAA==[0m[Pipeline] withEnv
+[8mha:////4AfiFKa8mXGbvoN22XqyfUlIBTjiVI2G8dqDyWgHvfjJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4GmoLI32j5dBqJQ/SC64Hu14JaSSdQz5v+2Dzl/Mhs3CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ npm install
+
+> node-sass@4.9.3 install /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.3/linux-x64-67_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v4.9.3/linux-x64-67_binding.node": 
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g. 
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> node-sass@4.9.3 postinstall /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass
+> node scripts/build.js
+
+Building: /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs_11.1.0/bin/node /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [ '/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs_11.1.0/bin/node',
+gyp verb cli   '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/bin/node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library=' ]
+gyp info using node-gyp@3.8.0
+gyp info using node@11.1.0 | linux | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` succeeded python2 /usr/bin/python2
+gyp verb check python version `/usr/bin/python2 -c "import sys; print "2.7.13
+gyp verb check python version .%s.%s" % sys.version_info[:3];"` returned: %j
+gyp verb get node dir no --target version specified, falling back to host node version: 11.1.0
+gyp verb command install [ '11.1.0' ]
+gyp verb install input version string "11.1.0"
+gyp verb install installing version: 11.1.0
+gyp verb install --ensure was passed, so won't reinstall if already installed
+gyp verb install version is already installed, need to check "installVersion"
+gyp verb got "installVersion" 9
+gyp verb needs "installVersion" 9
+gyp verb install version is good
+gyp verb get node dir target node version installed: 11.1.0
+gyp verb build dir attempting to create "build" dir: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass/build
+gyp verb build dir "build" dir needed to be created? /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass/build
+gyp verb build/config.gypi creating config file
+gyp verb build/config.gypi writing out config file: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass/build/config.gypi
+gyp verb config.gypi checking for gypi file: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass/config.gypi
+gyp verb common.gypi checking for gypi file: /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass/common.gypi
+gyp verb gyp gyp format was not specified; forcing "make"
+gyp info spawn /usr/bin/python2
+gyp info spawn args [ '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/gyp/gyp_main.py',
+gyp info spawn args   'binding.gyp',
+gyp info spawn args   '-f',
+gyp info spawn args   'make',
+gyp info spawn args   '-I',
+gyp info spawn args   '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass/build/config.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/addon.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/var/jenkins_home/.node-gyp/11.1.0/include/node/common.gypi',
+gyp info spawn args   '-Dlibrary=shared_library',
+gyp info spawn args   '-Dvisibility=default',
+gyp info spawn args   '-Dnode_root_dir=/var/jenkins_home/.node-gyp/11.1.0',
+gyp info spawn args   '-Dnode_gyp_dir=/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp',
+gyp info spawn args   '-Dnode_lib_file=/var/jenkins_home/.node-gyp/11.1.0/<(target_arch)/node.lib',
+gyp info spawn args   '-Dmodule_root_dir=/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass',
+gyp info spawn args   '-Dnode_engine=v8',
+gyp info spawn args   '--depth=.',
+gyp info spawn args   '--no-parallel',
+gyp info spawn args   '--generator-output',
+gyp info spawn args   'build',
+gyp info spawn args   '-Goutput_dir=.' ]
+gyp verb command build []
+gyp verb build type Release
+gyp verb architecture x64
+gyp verb node dev dir /var/jenkins_home/.node-gyp/11.1.0
+gyp ERR! build error 
+gyp ERR! stack Error: not found: make
+gyp ERR! stack     at getNotFoundError (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:13:12)
+gyp ERR! stack     at F (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:68:19)
+gyp ERR! stack     at E (/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:80:29)
+gyp ERR! stack     at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/which/which.js:89:16
+gyp ERR! stack     at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/isexe/index.js:42:5
+gyp ERR! stack     at /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/isexe/mode.js:8:5
+gyp ERR! stack     at FSReqCallback.oncomplete (fs.js:161:21)
+gyp ERR! System Linux 4.9.125-linuxkit
+gyp ERR! command "/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs_11.1.0/bin/node" "/var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ/node_modules/@angular-devkit/build-angular/node_modules/node-sass
+gyp ERR! node -v v11.1.0
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok 
+Build failed with error code: 1
+npm WARN @angular/http@7.2.8 requires a peer of @angular/core@7.2.8 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/http@7.2.8 requires a peer of @angular/platform-browser@7.2.8 but none is installed. You must install peer dependencies yourself.
+npm WARN @ng-bootstrap/ng-bootstrap@4.1.0 requires a peer of @angular/common@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ng-bootstrap/ng-bootstrap@4.1.0 requires a peer of @angular/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ng-bootstrap/ng-bootstrap@4.1.0 requires a peer of @angular/forms@^7.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ngrx/router-store@6.1.2 requires a peer of @angular/common@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ngrx/router-store@6.1.2 requires a peer of @angular/core@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ngrx/router-store@6.1.2 requires a peer of @angular/router@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ngrx/store@6.1.2 requires a peer of @angular/core@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ngtools/webpack@7.0.7 requires a peer of @angular/compiler-cli@>=5.0.0 <8.0.0 || ^7.0.0-beta.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ngtools/webpack@7.0.7 requires a peer of typescript@>=2.4.0 < 3.2 but none is installed. You must install peer dependencies yourself.
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is installed. You must install peer dependencies yourself.
+npm WARN codelyzer@4.5.0 requires a peer of @angular/compiler@>=2.3.1 <8.0.0 || >7.0.0-beta <8.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN codelyzer@4.5.0 requires a peer of @angular/core@>=2.3.1 <8.0.0 || >7.0.0-beta <8.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ngx-image-gallery@1.3.1 requires a peer of @angular/core@^4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ngx-image-gallery@1.3.1 requires a peer of rxjs@^5.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ngx-image-gallery@1.3.1 requires a peer of zone.js@^0.8.4 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/@angular/compiler-cli/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.9.3 (node_modules/@angular-devkit/build-angular/node_modules/node-sass):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.9.3 postinstall: `node scripts/build.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
+audited 43045 packages in 35.85s
+found 33 vulnerabilities (1 low, 4 moderate, 28 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+[8mha:////4Oxgzn+gTJBkli8KTP4oJizai6HniwTY9tDIkUXjmrtUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4Duvs5wg1zk2X8k603K5HfJJFaWXEOCl9JB1bQQqZFH5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LYNRHr3osgqTncNqiE1Dw3dawaylvOofAcQj3XvaP69AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71B0xnDfi+AAAA[0m[Pipeline] }
+[8mha:////4CrK6IwKl+IM7F3TfD/ARL8wMpKhDFbULY5iEnX3DqVfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRQomoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AHQlngm+AAAA[0m[Pipeline] // stage
+[8mha:////4EKNWFLiUIh6y4lRNoexPma0AThD1ZUH+q9g0P87YQxWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU0BExdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnK/y9Y0n2f1BhMc97DCAAAA[0m[Pipeline] stage
+[8mha:////4P2T9sXy48GQ6hwxdJUL7ysvIj2D8B5VeVftveo5anIRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Web Build)
+[8mha:////4ANHqa0Qy1hi5Dd3hf207HkbvY7jMk+wT6mIz3r2no5qAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] tool
+[8mha:////4E0vOCriR04XzRjyviNt+YL1MtkvQgR46T3k2X/71AVdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxU7nkK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4OB36KDlVWK1KBTtK/8iqh3276fpTy+p5JDnJpGCp3HvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AIkBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAovpTBwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KikEY5GXmG1ogm1+434YoK4I5VXATzzbGPyv4negjtQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4EXPTqDNG5wkh95lqNguYVacKuVjw+c1+Q62ech1qDR0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ npm run build --prod
+
+> arminai@0.0.0 build /var/jenkins_home/workspace/arminai-web-pipeline_master-VOGAXBJ6NXIZCWJN67LG3GMDPEFLJFRDYAWF3BLUH4O2UUGCAOKQ
+> ng build --prod
+
+
+Date: 2019-06-06T20:45:20.511Z
+Hash: ce29842ff1a5569d3222
+Time: 46190ms
+chunk {0} runtime.ec2944dd8b20ec099bf3.js (runtime) 1.41 kB [entry] [rendered]
+chunk {1} main.656a774e693246997692.js (main) 1020 kB [initial] [rendered]
+chunk {2} polyfills.fa17bc8e6392023027f5.js (polyfills) 42.9 kB [initial] [rendered]
+chunk {3} styles.547036b9c5deedecbd6e.css (styles) 252 kB [initial] [rendered]
+[8mha:////4LQYRkN99NH6aXVkxuteBTtxVrGL2SsbhCLVy9nv5ZizAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4LIurfjlqdZH4KnVOFiuKXgZPwZWipRn8APMVk/859x0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4E7LSAgm3q87klcOS4eoI9vLDq6//5pq6vw+yyk+XXGfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP46PQTy+AAAA[0m[Pipeline] }
+[8mha:////4I2Y7jugRkd5ForpaQhJMKY7z9/8eaeqSULBc8BQp3hsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpQoeoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AIjJeWm+AAAA[0m[Pipeline] // stage
+[8mha:////4MRtqmJ081MolZn9ICJOpZKRXQQmaFy6eDnezWM1L8yeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUoG6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Xbam+TyrNyUSVWjCAAAA[0m[Pipeline] stage
+[8mha:////4AHQ6p2uW9wdBnxNloRkUhraw9FtbjnceZ93I8baNqs9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (Upload to FTP)
+[8mha:////4IbfUEDldGL0cEb4WwWBBzZa0b4QK1iJqGB1aozUz4boAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] tool
+[8mha:////4MVj7atTrgrE5VT6yOAbUKizRbImzQhQ7t8iocvAaQPuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3weePK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4LjFHLGRy8DP15g6zn6kzWck8RM02Hv1AtUYdhTtZ7LpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA8BHNAwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4NCUJC4rvYKbbH35RrodakHD3g+jnl20Sg5/+xSnK+4ZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4H+YV4n17ItPEYeiZiSKZDHL10CVFogtOOfI4RtQJby/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] ftpPublisher
+FTP: Connecting from host [071862375bbe]
+FTP: Connecting with configuration [hostingas.in] ...
+220 ProFTPD 1.3.4b Server ready.
+FTP: Logging in, command printing disabled
+FTP: Logged in, command printing enabled
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+TYPE I
+200 Type set to I
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,138,131).
+STOR 3rdpartylicenses.txt
+150 Opening BINARY mode data connection for 3rdpartylicenses.txt
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/i18n
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,137,171).
+STOR de.json
+150 Opening BINARY mode data connection for de.json
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,130).
+STOR en.json
+150 Opening BINARY mode data connection for en.json
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,55).
+STOR lt.json
+150 Opening BINARY mode data connection for lt.json
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/images/juozo/column
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,137,211).
+STOR column-1.jpg
+150 Opening BINARY mode data connection for column-1.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,26).
+STOR column-10.jpg
+150 Opening BINARY mode data connection for column-10.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,0).
+STOR column-11.jpg
+150 Opening BINARY mode data connection for column-11.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,136,226).
+STOR column-12.jpg
+150 Opening BINARY mode data connection for column-12.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,43).
+STOR column-2.jpg
+150 Opening BINARY mode data connection for column-2.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,55).
+STOR column-3.jpg
+150 Opening BINARY mode data connection for column-3.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,70).
+STOR column-4.jpg
+150 Opening BINARY mode data connection for column-4.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,143).
+STOR column-5.jpg
+150 Opening BINARY mode data connection for column-5.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,240).
+STOR column-6.jpg
+150 Opening BINARY mode data connection for column-6.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,240).
+STOR column-7.jpg
+150 Opening BINARY mode data connection for column-7.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,196).
+STOR column-8.jpg
+150 Opening BINARY mode data connection for column-8.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,235).
+STOR column-9.jpg
+150 Opening BINARY mode data connection for column-9.jpg
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/images/juozo/kita
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,137,13).
+STOR stalas.jpg
+150 Opening BINARY mode data connection for stalas.jpg
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/images/juozo/laiptai
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,139,157).
+STOR laiptai-1.jpg
+150 Opening BINARY mode data connection for laiptai-1.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,121).
+STOR laiptai-10.jpg
+150 Opening BINARY mode data connection for laiptai-10.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,214).
+STOR laiptai-11.jpg
+150 Opening BINARY mode data connection for laiptai-11.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,136,209).
+STOR laiptai-12.jpg
+150 Opening BINARY mode data connection for laiptai-12.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,91).
+STOR laiptai-13.jpg
+150 Opening BINARY mode data connection for laiptai-13.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,51).
+STOR laiptai-14.jpg
+150 Opening BINARY mode data connection for laiptai-14.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,163).
+STOR laiptai-15.jpg
+150 Opening BINARY mode data connection for laiptai-15.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,111).
+STOR laiptai-16.jpg
+150 Opening BINARY mode data connection for laiptai-16.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,106).
+STOR laiptai-17.jpg
+150 Opening BINARY mode data connection for laiptai-17.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,22).
+STOR laiptai-18.jpg
+150 Opening BINARY mode data connection for laiptai-18.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,164).
+STOR laiptai-19.jpg
+150 Opening BINARY mode data connection for laiptai-19.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,65).
+STOR laiptai-2.jpg
+150 Opening BINARY mode data connection for laiptai-2.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,185).
+STOR laiptai-20.jpg
+150 Opening BINARY mode data connection for laiptai-20.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,221).
+STOR laiptai-21.jpg
+150 Opening BINARY mode data connection for laiptai-21.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,13).
+STOR laiptai-22.jpg
+150 Opening BINARY mode data connection for laiptai-22.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,136,197).
+STOR laiptai-23.jpg
+150 Opening BINARY mode data connection for laiptai-23.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,192).
+STOR laiptai-24.jpg
+150 Opening BINARY mode data connection for laiptai-24.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,166).
+STOR laiptai-25.jpg
+150 Opening BINARY mode data connection for laiptai-25.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,225).
+STOR laiptai-26.jpg
+150 Opening BINARY mode data connection for laiptai-26.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,35).
+STOR laiptai-27.jpg
+150 Opening BINARY mode data connection for laiptai-27.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,7).
+STOR laiptai-28a.jpg
+150 Opening BINARY mode data connection for laiptai-28a.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,11).
+STOR laiptai-29a.jpg
+150 Opening BINARY mode data connection for laiptai-29a.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,151).
+STOR laiptai-3.jpg
+150 Opening BINARY mode data connection for laiptai-3.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,135).
+STOR laiptai-4.jpg
+150 Opening BINARY mode data connection for laiptai-4.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,154).
+STOR laiptai-5.jpg
+150 Opening BINARY mode data connection for laiptai-5.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,135).
+STOR laiptai-6.jpg
+150 Opening BINARY mode data connection for laiptai-6.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,138,216).
+STOR laiptai-7.jpg
+150 Opening BINARY mode data connection for laiptai-7.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,136,235).
+STOR laiptai-8.jpg
+150 Opening BINARY mode data connection for laiptai-8.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,148).
+STOR laiptai-9.jpg
+150 Opening BINARY mode data connection for laiptai-9.jpg
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/images/nav
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,137,37).
+STOR about-me.png
+150 Opening BINARY mode data connection for about-me.png
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,64).
+STOR contact-us.jpg
+150 Opening BINARY mode data connection for contact-us.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,146).
+STOR dalios-leles.jpg
+150 Opening BINARY mode data connection for dalios-leles.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,0).
+STOR juozo-column.jpg
+150 Opening BINARY mode data connection for juozo-column.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,95).
+STOR juozo-stairs-home.jpg
+150 Opening BINARY mode data connection for juozo-stairs-home.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,172).
+STOR juozo-stairs.jpg
+150 Opening BINARY mode data connection for juozo-stairs.jpg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,164).
+STOR vytautas.jpg
+150 Opening BINARY mode data connection for vytautas.jpg
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/styles/fonts
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,139,218).
+STOR arfont.eot
+150 Opening BINARY mode data connection for arfont.eot
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,152).
+STOR arfont.svg
+150 Opening BINARY mode data connection for arfont.svg
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,116).
+STOR arfont.ttf
+150 Opening BINARY mode data connection for arfont.ttf
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,139,166).
+STOR arfont.woff
+150 Opening BINARY mode data connection for arfont.woff
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+CWD assets/styles
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,138,15).
+STOR style.css
+150 Opening BINARY mode data connection for style.css
+226 Transfer complete
+CWD /domains/arminai.lt/public_html
+250 CWD command successful
+PASV
+227 Entering Passive Mode (185,65,200,254,138,97).
+STOR favicon.ico
+150 Opening BINARY mode data connection for favicon.ico
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,73).
+STOR index.html
+150 Opening BINARY mode data connection for index.html
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,41).
+STOR main.656a774e693246997692.js
+150 Opening BINARY mode data connection for main.656a774e693246997692.js
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,159).
+STOR polyfills.fa17bc8e6392023027f5.js
+150 Opening BINARY mode data connection for polyfills.fa17bc8e6392023027f5.js
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,140,158).
+STOR runtime.ec2944dd8b20ec099bf3.js
+150 Opening BINARY mode data connection for runtime.ec2944dd8b20ec099bf3.js
+226 Transfer complete
+PASV
+227 Entering Passive Mode (185,65,200,254,137,55).
+STOR styles.547036b9c5deedecbd6e.css
+150 Opening BINARY mode data connection for styles.547036b9c5deedecbd6e.css
+226 Transfer complete
+FTP: Disconnecting configuration [hostingas.in] ...
+FTP: Transferred 64 file(s)
+[8mha:////4Ik7rDyAVIsXjhBg+Kullu7URYvd4wk+/br2IQGStvR6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA7hxSLb4AAAA=[0m[Pipeline] }
+[8mha:////4HXtSP9wgu1XXLq+RcSzrklzz9vaazafKhH71pNWEgDMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eED1l7B3L4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4ILbCTIgEBaNkz0i3usFcMILGcx0DRe6mKa7oE8gSlPlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP87xLGm+AAAA[0m[Pipeline] }
+[8mha:////4F3LnrO9xShEP3Uya6cRYENiNoaZe0FImlqj7G1tZ/cUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpQoWoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AODxLgO+AAAA[0m[Pipeline] // stage
+[8mha:////4Px57wmFqk8aXWLnd5r7L29gJcfMkSm42ql+xZi/OqtDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikFIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wFMcULuvgAAAA==[0m[Pipeline] }
+[8mha:////4PrHn0Q0o9vUuD2yl5ZER8v/CAXcQ2exZKkS81c6mbz5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w90M9EfvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PdcRYxqPT0vXOumsasOkA/aMo8L5ch3uNkKxOn8g8FWAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i13X0AqOKpZr4AAAA=[0m[Pipeline] }
+[8mha:////4IGP7pf2R78LRuTzf/Kp4xBB3GIap0ta33a7vbscNY7iAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+0Ou7e4D62D44L4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4Dqma3tfUkZRZWS2pMlnc+1UEAxKK7ZrhsYJplq2jmK3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiFBQIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w/04q2yvgAAAA==[0m[Pipeline] }
+[8mha:////4JSpWQsmCLPGGZQ33YI+oYqf4JPieuqTlyH3dvBvRg/TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISGhpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPzeZTdO+AAAA[0m[Pipeline] // withEnv
+[8mha:////4ITuskPC99HnUI/Q5kGAvlhUTiyf01oh/b26sPePl03dAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AI0yIPK9AAAA[0m[Pipeline] }
+[8mha:////4GZLwZTorQRJkA4EzlNVKitfTwZZUzCL2duN1SG1cLgvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AP7d5Cu9AAAA[0m[Pipeline] // node
+[8mha:////4MxbnkAni55RpK65nGG/XBBpDbuNpJPq0DxMc5PBe07PAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+ANjEg2G9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

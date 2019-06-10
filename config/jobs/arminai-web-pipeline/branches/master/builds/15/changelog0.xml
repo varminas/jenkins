@@ -1,0 +1,11 @@
+commit 44ec2b90a97c07633b78c1db5a85975d5b5047d6
+tree 15fd773a6e87b4f8ac0f48d63ced184c51b6e1fd
+parent 8a198b4fcad1302d6df6defb197fd68ecd922c96
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 20:48:35 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 20:48:35 +0100
+
+    sourceFiles all
+
+
+
+:100644 100644 5cda3393e8c4e4d09794dffe9850cd18547a1fd5 5e6a14ef0ba351d992176dee5f3181c264e7563e M	Jenkinsfile

@@ -1,0 +1,11 @@
+commit 7f42ddfbe063e0028bd827be5aa0f93f05854754
+tree b75c8c86b0b13c7e37b97ff4b8f63316eada0163
+parent 5b0b109f2e56aaa44bd6b521e429491f4d850069
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 21:10:02 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 21:10:02 +0100
+
+    Add unit test to jenkins
+
+
+
+:100644 100644 0d1f87fa470df139cf2949f925622a967d707c2d 4eb6fe694172c7ef9d2cec2648d880191b119769 M	Jenkinsfile

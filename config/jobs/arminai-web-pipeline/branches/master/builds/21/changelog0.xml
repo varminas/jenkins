@@ -1,0 +1,12 @@
+commit 20c4cfb3f952e2bf75f214cfe47e118ea29f8909
+tree bca7caf6395c8145269138435a60a1203ac7b9c9
+parent 7f42ddfbe063e0028bd827be5aa0f93f05854754
+author vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 21:45:48 +0100
+committer vytautas.arminas <vytautas.arminas@gmai.com> 2018-11-18 21:45:48 +0100
+
+    Remove test stage
+
+
+
+:100644 100644 4eb6fe694172c7ef9d2cec2648d880191b119769 56ae2c66de0d492114bbbc48cbdd27ee72340506 M	Jenkinsfile
+:100644 100644 b6e00421c95f925352ccf765b942a8e94c0cdc74 fda7349745c4cd447fa212e243e2917052250d16 M	src/karma.conf.js
