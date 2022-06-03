@@ -77,7 +77,7 @@
         <dependency> <!-- minimun required version to work with Workflow 1.4 GitSCM step-->
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>git</artifactId>
-            <version>2.3.5</version>
+            <version>4.11.2</version>
         </dependency>
         <dependency> <!-- minimun required version to work with Workflow 1.4 GitSCM step-->
             <groupId>org.jenkins-ci.plugins</groupId>
