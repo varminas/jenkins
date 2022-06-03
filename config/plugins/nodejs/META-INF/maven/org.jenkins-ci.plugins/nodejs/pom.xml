@@ -48,7 +48,7 @@
         <byte-buddy.version>1.9.10</byte-buddy.version>
 
         <workflow-api-plugin.version>2.22</workflow-api-plugin.version>
-        <workflow-cps-plugin.version>2.42</workflow-cps-plugin.version>
+        <workflow-cps-plugin.version>2.65</workflow-cps-plugin.version>
         <workflow-job-plugin.version>2.11.2</workflow-job-plugin.version>
         <workflow-step-api-plugin.version>2.13</workflow-step-api-plugin.version>
         <workflow-basic-steps-plugin.version>2.5</workflow-basic-steps-plugin.version>
